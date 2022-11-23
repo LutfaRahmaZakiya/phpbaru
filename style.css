@@ -1,0 +1,180 @@
+a {
+    text-decoration: none;
+}
+.logo a {
+    font-size: 40px;
+    font-weight: 800;
+    float: left;
+    font-family: 'Caladea';
+    letter-spacing: 7px;
+    color: #789395;
+}
+.menu {
+    float: right;
+}
+.nav {
+    width: 100%;
+    display: flex;
+    line-height: 80px;
+    position: fixed;
+    top: 0;
+    padding-left:20px;
+}
+nav ul {
+    list-style-type: none;
+    margin-right: 30px;
+    padding: 0;
+}
+nav ul li {
+    float: left;
+}
+nav ul li a {
+    color: #789395;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    font-family: 'Caladea';
+    letter-spacing: 3px;
+}
+.top-wrapper {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    margin-bottom: 10px;
+    background-image: url(https://media.cntraveler.com/photos/576af69b4a3399cb31f9da38/master/w_1600%2Cc_limit/Raja-Ampat-GettyImages-497311417.jpg);
+    background-size: cover;
+    color: #789395;
+    text-align: center;
+}
+.top-wrapper h1 {
+    font-size: 45px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    font-family: 'Caladea';
+    letter-spacing: 8px;
+}
+.top-wrapper p {
+    margin-bottom: 3px;
+    font-family: 'Caladea';
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.box {
+    width: 10%;
+    height: 4px;
+    background-color: #789395;
+    display: inline-block;
+    border-radius: 10px;
+}
+.lomba-kategori {
+    width:fit-content;
+    padding-top: 20px;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 10px;
+    background-color: #E5E3C9;
+    height: 250px;
+}
+.kategori-1 {
+    width: auto;
+    display: flex;
+    margin-top:40px;
+    margin-right: 40px;
+}
+.lomba-1{
+    display: flex;
+    width: auto;
+}
+
+.kategori img{
+    width: 100%;
+    height: 180px;
+    border-radius: 10px;
+    float: center;
+    margin-right: 25px;
+}
+.kategori p {
+    text-align: center;
+    font-family: 'Caladea';
+    margin-top: 10px;
+    color: #789395;
+    font-weight: bold;
+}
+body {
+    background-color:beige;
+}
+
+form{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+
+.datadiri>div {
+    display: flex;
+    margin: 5px;
+    flex-basis: 30px;
+    font-size: medium;
+    justify-content: left;
+}
+
+.datadiri>div>label,
+    .identitas div p {
+      flex: 1 0 120px;
+      max-width: 400px;
+}
+
+.radio>div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;  
+}
+
+button{
+    display: flexbox;
+    width: 20%;
+    margin: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.persyaratan {
+    padding-top: 100px ;
+    text-align:center;
+    background-size: auto;
+}
+.container {
+    text-align: center;
+}
+div ol {
+    margin-right: 30px;
+    padding: 20;
+    padding-bottom: 30px;
+    font-size:large;
+}
+
+
+.footer {
+    background-color:#26747E;
+    background-size:auto;
+    width:100%;
+    height:100px;
+    padding: 40px;
+    color:black;
+    display:flex;
+    justify-content:left;
+    flex-wrap:wrap;
+    margin:0 auto;
+}
+.footer-logo {
+    font-size: 32px;
+    float: left;
+}
+.footer-list{
+    float: right;
+}
+.footer-list li{
+    padding-bottom: 20px;
+}
